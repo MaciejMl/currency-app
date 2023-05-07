@@ -93,10 +93,10 @@ describe('Component ResultBox', () => {
 
   it('should render text "Wrong number.." if amount is < then zero', () => {
     const valueArray = [
-      { amount: -100, from: 'PLN', to: 'PLN', badValue: 'Wrong value..' },
-      { amount: -50, from: 'USD', to: 'USD', badValue: 'Wrong value..' },
-      { amount: -25, from: 'PLN', to: 'USD', badValue: 'Wrong value..' },
-      { amount: -10, from: 'USD', to: 'PLN', badValue: 'Wrong value..' },
+      { amount: -100, from: 'PLN', to: 'PLN' },
+      { amount: -50, from: 'USD', to: 'USD' },
+      { amount: -25, from: 'PLN', to: 'USD' },
+      { amount: -10, from: 'USD', to: 'PLN' },
     ];
 
     for (const value of valueArray) {
